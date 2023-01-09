@@ -1,14 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <TargetFramework>net6.0</TargetFramework>
         <Authors>Gideon (Entelect)</Authors>
         <Description>E.S.Api.Helpers</Description>
-        <PackageVersion>1.0.7</PackageVersion>
+        <PackageVersion>6.0.4</PackageVersion>
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="E.S.Logging" Version="1.0.7" />
+        <PackageReference Include="E.S.Logging" Version="6.0.5" />
         <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
         <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.16.0" />
     </ItemGroup>

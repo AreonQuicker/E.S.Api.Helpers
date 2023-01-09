@@ -1,4 +1,5 @@
 using System.Linq;
+using E.S.Api.Helpers.Constants;
 using E.S.Api.Helpers.Exceptions;
 using E.S.Api.Helpers.Extensions;
 using E.S.Api.Helpers.Results;
@@ -28,7 +29,7 @@ namespace E.S.Api.Helpers.Filters
             var exception = context.Exception;
 
             _logger.LogErrorOperation(LoggerStatusEnum.Error,
-                "Api Global",
+                ApiLoggerConstant.System,
                 null,
                 null,
                 _loggedInUsername,
